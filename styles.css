@@ -1,0 +1,10 @@
+
+div.custom-block {
+  border: 2px solid #000; /* 添加邊框 */
+  padding: 6px; /* 四周留出空間 */
+  padding-right: 30px; /* 右邊留出30px的距離 */
+}
+
+.custom-block-title {
+  font-weight: bold; /* 加粗標題 */
+}
