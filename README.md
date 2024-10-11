@@ -1,6 +1,6 @@
 Adds [markdown-it-container](https://github.com/markdown-it/markdown-it-container) support to VS Code.
 
-This is a customized version of [markdown-it-container](https://github.com/yzhang-gh/vscode-markdown-container).
+This is a customized version of [vscode-markdown-container](https://github.com/yzhang-gh/vscode-markdown-container).
 
 We have removed the `tip` and `details` block containers, but retained all other block containers using the `{container-name}` syntax. Each block container simply wraps the content inside with a border and a title.
 
