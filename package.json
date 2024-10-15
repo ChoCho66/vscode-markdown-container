@@ -19,7 +19,11 @@
 		"url": "https://github.com/ChoCho66/vscode-markdown-container"
 	},
 	"license": "MIT",
-	"activationEvents": [],
+	"activationEvents": [
+		"onLanguage:markdown",
+		"onLanguage:quarto",
+		"onLanguage:rmarkdown"
+	],
 	"main": "./extension.js",
 	"contributes": {
 		"markdown.markdownItPlugins": true,
